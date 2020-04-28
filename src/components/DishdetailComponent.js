@@ -38,10 +38,11 @@ class Dishdetail extends Component {
         const comments = dish.comments.map((comment) => {
           return (
             <div key={comment.id}>
-              <p>{comment.comment}</p>
-              <p></p>
-              <p>-- {comment.author}, {comment.date}</p>
-              <p></p>
+              <ul className = "list-unstyled">
+                <li>{comment.comment}</li>
+                <li></li>
+                <li>-- {comment.author}, {comment.date}</li>
+              </ul>
             </div>
           )
         });
