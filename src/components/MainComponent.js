@@ -9,6 +9,7 @@ import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
 import Home from "./HomeComponent";
 
+
 const mapStateToProps = state => {
   return {
     dishes: state.dishes,
